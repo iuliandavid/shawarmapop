@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52601DDEC5960074D73B /* AppDelegate.swift */; };
+		B81A52631DDEC5960074D73B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52621DDEC5960074D73B /* ViewController.swift */; };
+		B81A52661DDEC5960074D73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A52641DDEC5960074D73B /* Main.storyboard */; };
+		B81A52681DDEC5960074D73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81A52671DDEC5960074D73B /* Assets.xcassets */; };
+		B81A526B1DDEC5960074D73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */; };
+		B81A52761DDEC5960074D73B /* ShawarmaPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52751DDEC5960074D73B /* ShawarmaPopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B81A52721DDEC5960074D73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B81A52551DDEC5960074D73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B81A525C1DDEC5960074D73B;
+			remoteInfo = ShawarmaPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B81A525D1DDEC5960074D73B /* ShawarmaPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShawarmaPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81A52601DDEC5960074D73B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B81A52621DDEC5960074D73B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B81A52651DDEC5960074D73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B81A52671DDEC5960074D73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B81A526A1DDEC5960074D73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B81A526C1DDEC5960074D73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81A52711DDEC5960074D73B /* ShawarmaPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShawarmaPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81A52751DDEC5960074D73B /* ShawarmaPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawarmaPopTests.swift; sourceTree = "<group>"; };
+		B81A52771DDEC5960074D73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B81A525A1DDEC5960074D73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81A526E1DDEC5960074D73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B81A52541DDEC5960074D73B = {
+			isa = PBXGroup;
+			children = (
+				B81A525F1DDEC5960074D73B /* ShawarmaPop */,
+				B81A52741DDEC5960074D73B /* ShawarmaPopTests */,
+				B81A525E1DDEC5960074D73B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B81A525E1DDEC5960074D73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B81A525D1DDEC5960074D73B /* ShawarmaPop.app */,
+				B81A52711DDEC5960074D73B /* ShawarmaPopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B81A525F1DDEC5960074D73B /* ShawarmaPop */ = {
+			isa = PBXGroup;
+			children = (
+				B81A52601DDEC5960074D73B /* AppDelegate.swift */,
+				B81A52621DDEC5960074D73B /* ViewController.swift */,
+				B81A52641DDEC5960074D73B /* Main.storyboard */,
+				B81A52671DDEC5960074D73B /* Assets.xcassets */,
+				B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */,
+				B81A526C1DDEC5960074D73B /* Info.plist */,
+			);
+			path = ShawarmaPop;
+			sourceTree = "<group>";
+		};
+		B81A52741DDEC5960074D73B /* ShawarmaPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B81A52751DDEC5960074D73B /* ShawarmaPopTests.swift */,
+				B81A52771DDEC5960074D73B /* Info.plist */,
+			);
+			path = ShawarmaPopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B81A525C1DDEC5960074D73B /* ShawarmaPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81A527A1DDEC5960074D73B /* Build configuration list for PBXNativeTarget "ShawarmaPop" */;
+			buildPhases = (
+				B81A52591DDEC5960074D73B /* Sources */,
+				B81A525A1DDEC5960074D73B /* Frameworks */,
+				B81A525B1DDEC5960074D73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShawarmaPop;
+			productName = ShawarmaPop;
+			productReference = B81A525D1DDEC5960074D73B /* ShawarmaPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B81A52701DDEC5960074D73B /* ShawarmaPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B81A527D1DDEC5960074D73B /* Build configuration list for PBXNativeTarget "ShawarmaPopTests" */;
+			buildPhases = (
+				B81A526D1DDEC5960074D73B /* Sources */,
+				B81A526E1DDEC5960074D73B /* Frameworks */,
+				B81A526F1DDEC5960074D73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B81A52731DDEC5960074D73B /* PBXTargetDependency */,
+			);
+			name = ShawarmaPopTests;
+			productName = ShawarmaPopTests;
+			productReference = B81A52711DDEC5960074D73B /* ShawarmaPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B81A52551DDEC5960074D73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "iulian david";
+				TargetAttributes = {
+					B81A525C1DDEC5960074D73B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BQ9WNW24Z8;
+						ProvisioningStyle = Automatic;
+					};
+					B81A52701DDEC5960074D73B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BQ9WNW24Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B81A525C1DDEC5960074D73B;
+					};
+				};
+			};
+			buildConfigurationList = B81A52581DDEC5960074D73B /* Build configuration list for PBXProject "ShawarmaPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B81A52541DDEC5960074D73B;
+			productRefGroup = B81A525E1DDEC5960074D73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B81A525C1DDEC5960074D73B /* ShawarmaPop */,
+				B81A52701DDEC5960074D73B /* ShawarmaPopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B81A525B1DDEC5960074D73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81A526B1DDEC5960074D73B /* LaunchScreen.storyboard in Resources */,
+				B81A52681DDEC5960074D73B /* Assets.xcassets in Resources */,
+				B81A52661DDEC5960074D73B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81A526F1DDEC5960074D73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B81A52591DDEC5960074D73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81A52631DDEC5960074D73B /* ViewController.swift in Sources */,
+				B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81A526D1DDEC5960074D73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81A52761DDEC5960074D73B /* ShawarmaPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B81A52731DDEC5960074D73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B81A525C1DDEC5960074D73B /* ShawarmaPop */;
+			targetProxy = B81A52721DDEC5960074D73B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B81A52641DDEC5960074D73B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81A52651DDEC5960074D73B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81A526A1DDEC5960074D73B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B81A52781DDEC5960074D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B81A52791DDEC5960074D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B81A527B1DDEC5960074D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9WNW24Z8;
+				INFOPLIST_FILE = ShawarmaPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.id.ShawarmaPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B81A527C1DDEC5960074D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9WNW24Z8;
+				INFOPLIST_FILE = ShawarmaPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.id.ShawarmaPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B81A527E1DDEC5960074D73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQ9WNW24Z8;
+				INFOPLIST_FILE = ShawarmaPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.id.ShawarmaPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShawarmaPop.app/ShawarmaPop";
+			};
+			name = Debug;
+		};
+		B81A527F1DDEC5960074D73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQ9WNW24Z8;
+				INFOPLIST_FILE = ShawarmaPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.id.ShawarmaPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShawarmaPop.app/ShawarmaPop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B81A52581DDEC5960074D73B /* Build configuration list for PBXProject "ShawarmaPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81A52781DDEC5960074D73B /* Debug */,
+				B81A52791DDEC5960074D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B81A527A1DDEC5960074D73B /* Build configuration list for PBXNativeTarget "ShawarmaPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81A527B1DDEC5960074D73B /* Debug */,
+				B81A527C1DDEC5960074D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B81A527D1DDEC5960074D73B /* Build configuration list for PBXNativeTarget "ShawarmaPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81A527E1DDEC5960074D73B /* Debug */,
+				B81A527F1DDEC5960074D73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B81A52551DDEC5960074D73B /* Project object */;
+}
