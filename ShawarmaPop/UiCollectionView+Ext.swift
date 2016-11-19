@@ -13,6 +13,7 @@ import UIKit
 //with the use of generics
 extension UICollectionView {
     
+    
     func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView, T: NibLoadableView {
         
         let nib = UINib(nibName: T.nibName, bundle: nil)

@@ -29,9 +29,11 @@ class ShawarmaPopVC: UIViewController, DataServiceDelegate {
         
         headerView.addDropShadow()
         
-        //old school way
-        let nib = UINib(nibName: kReusableCellName, bundle: nil)
-        collectionView.register(nib, forCellWithReuseIdentifier: kReusableCellName)
+//        //old school way
+//        let nib = UINib(nibName: kReusableCellName, bundle: nil)
+//        collectionView.register(nib, forCellWithReuseIdentifier: kReusableCellName)
+        
+        collectionView.register(ShawarmaCell.self)
     }
 
     func shawarmasLoaded() {
