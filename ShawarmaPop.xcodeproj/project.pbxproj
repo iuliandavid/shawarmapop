@@ -16,6 +16,9 @@
 		B81A52871DE035510074D73B /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52861DE035510074D73B /* DropShadow.swift */; };
 		B81A52891DE040A80074D73B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52881DE040A80074D73B /* HeaderView.swift */; };
 		B81A528B1DE048640074D73B /* Shawarma.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A528A1DE048640074D73B /* Shawarma.swift */; };
+		B81A52901DE05D9D0074D73B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A528F1DE05D9D0074D73B /* DataService.swift */; };
+		B81A52931DE074660074D73B /* ShawarmaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52911DE074660074D73B /* ShawarmaCell.swift */; };
+		B81A52941DE074660074D73B /* ShawarmaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81A52921DE074660074D73B /* ShawarmaCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		B81A52861DE035510074D73B /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		B81A52881DE040A80074D73B /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B81A528A1DE048640074D73B /* Shawarma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shawarma.swift; sourceTree = "<group>"; };
+		B81A528F1DE05D9D0074D73B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B81A52911DE074660074D73B /* ShawarmaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShawarmaCell.swift; sourceTree = "<group>"; };
+		B81A52921DE074660074D73B /* ShawarmaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShawarmaCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 				B81A52821DE032740074D73B /* Model */,
 				B81A52811DE032680074D73B /* View */,
 				B81A52801DE031FF0074D73B /* Controller */,
+				B81A528E1DE05D7C0074D73B /* Service */,
 				B81A52851DE032A20074D73B /* Resources */,
 			);
 			path = ShawarmaPop;
@@ -117,6 +124,8 @@
 				B81A52641DDEC5960074D73B /* Main.storyboard */,
 				B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */,
 				B81A52881DE040A80074D73B /* HeaderView.swift */,
+				B81A52911DE074660074D73B /* ShawarmaCell.swift */,
+				B81A52921DE074660074D73B /* ShawarmaCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -151,6 +160,14 @@
 				B81A52671DDEC5960074D73B /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		B81A528E1DE05D7C0074D73B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B81A528F1DE05D9D0074D73B /* DataService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B81A526B1DDEC5960074D73B /* LaunchScreen.storyboard in Resources */,
+				B81A52941DE074660074D73B /* ShawarmaCell.xib in Resources */,
 				B81A52681DDEC5960074D73B /* Assets.xcassets in Resources */,
 				B81A52661DDEC5960074D73B /* Main.storyboard in Resources */,
 			);
@@ -260,7 +278,9 @@
 			files = (
 				B81A52631DDEC5960074D73B /* ShawarmaPopVC.swift in Sources */,
 				B81A52871DE035510074D73B /* DropShadow.swift in Sources */,
+				B81A52931DE074660074D73B /* ShawarmaCell.swift in Sources */,
 				B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */,
+				B81A52901DE05D9D0074D73B /* DataService.swift in Sources */,
 				B81A528B1DE048640074D73B /* Shawarma.swift in Sources */,
 				B81A52891DE040A80074D73B /* HeaderView.swift in Sources */,
 			);
