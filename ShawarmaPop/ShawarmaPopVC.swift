@@ -38,6 +38,8 @@ class ShawarmaPopVC: UIViewController, DataServiceDelegate {
 
     func shawarmasLoaded() {
         print("Data loaded")
+        //this is how it will be normal to be done
+        collectionView.reloadData()
     }
 
 }
@@ -56,15 +58,21 @@ extension ShawarmaPopVC: UICollectionViewDelegate, UICollectionViewDelegateFlowL
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        //old school way
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kReusableCellName, for: indexPath) as? ShawarmaCell {
-            let shawarma = ds.shawarmas[indexPath.row]
-            cell.configureCell(shawarma: shawarma)
-            
-            return cell
-        } else {
-            return UICollectionViewCell()
-        }
+        //        //old school way
+        //        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kReusableCellName, for: indexPath) as? ShawarmaCell {
+        //            let shawarma = ds.shawarmas[indexPath.row]
+        //            cell.configureCell(shawarma: shawarma)
+        //
+        //            return cell
+        //        } else {
+        //            return UICollectionViewCell()
+        //        }
+        
+        let cell = collectionView.dequeueReusableCell(forIndexPath: indexPath) as ShawarmaCell
+        let shawarma = ds.shawarmas[indexPath.row]
+        cell.configureCell(shawarma: shawarma)
+        
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
