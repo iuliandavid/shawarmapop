@@ -13,5 +13,11 @@ protocol DropShadow {}
 //Constrain the Protocol to a certain Type
 //Just like with the generics
 extension DropShadow where Self: UIView {
-    
+    func addDropShadow() {
+        //implementation
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 0.7
+        layer.shadowOffset = CGSize.zero
+        layer.shadowRadius = 5.0
+    }
 }
