@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52601DDEC5960074D73B /* AppDelegate.swift */; };
-		B81A52631DDEC5960074D73B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52621DDEC5960074D73B /* ViewController.swift */; };
+		B81A52631DDEC5960074D73B /* ShawarmaPopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52621DDEC5960074D73B /* ShawarmaPopVC.swift */; };
 		B81A52661DDEC5960074D73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A52641DDEC5960074D73B /* Main.storyboard */; };
 		B81A52681DDEC5960074D73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81A52671DDEC5960074D73B /* Assets.xcassets */; };
 		B81A526B1DDEC5960074D73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */; };
 		B81A52761DDEC5960074D73B /* ShawarmaPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52751DDEC5960074D73B /* ShawarmaPopTests.swift */; };
+		B81A52871DE035510074D73B /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52861DE035510074D73B /* DropShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		B81A525D1DDEC5960074D73B /* ShawarmaPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShawarmaPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A52601DDEC5960074D73B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B81A52621DDEC5960074D73B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B81A52621DDEC5960074D73B /* ShawarmaPopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawarmaPopVC.swift; sourceTree = "<group>"; };
 		B81A52651DDEC5960074D73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B81A52671DDEC5960074D73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81A526A1DDEC5960074D73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		B81A52711DDEC5960074D73B /* ShawarmaPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShawarmaPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A52751DDEC5960074D73B /* ShawarmaPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShawarmaPopTests.swift; sourceTree = "<group>"; };
 		B81A52771DDEC5960074D73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81A52861DE035510074D73B /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,12 @@
 		B81A525F1DDEC5960074D73B /* ShawarmaPop */ = {
 			isa = PBXGroup;
 			children = (
-				B81A52601DDEC5960074D73B /* AppDelegate.swift */,
-				B81A52621DDEC5960074D73B /* ViewController.swift */,
-				B81A52641DDEC5960074D73B /* Main.storyboard */,
-				B81A52671DDEC5960074D73B /* Assets.xcassets */,
-				B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */,
-				B81A526C1DDEC5960074D73B /* Info.plist */,
+				B81A52841DE032840074D73B /* Extensions */,
+				B81A52831DE0327B0074D73B /* Protocol */,
+				B81A52821DE032740074D73B /* Model */,
+				B81A52811DE032680074D73B /* View */,
+				B81A52801DE031FF0074D73B /* Controller */,
+				B81A52851DE032A20074D73B /* Resources */,
 			);
 			path = ShawarmaPop;
 			sourceTree = "<group>";
@@ -94,6 +96,55 @@
 				B81A52771DDEC5960074D73B /* Info.plist */,
 			);
 			path = ShawarmaPopTests;
+			sourceTree = "<group>";
+		};
+		B81A52801DE031FF0074D73B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B81A52601DDEC5960074D73B /* AppDelegate.swift */,
+				B81A52621DDEC5960074D73B /* ShawarmaPopVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B81A52811DE032680074D73B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B81A52641DDEC5960074D73B /* Main.storyboard */,
+				B81A52691DDEC5960074D73B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B81A52821DE032740074D73B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B81A52831DE0327B0074D73B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B81A52861DE035510074D73B /* DropShadow.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		B81A52841DE032840074D73B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B81A52851DE032A20074D73B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B81A526C1DDEC5960074D73B /* Info.plist */,
+				B81A52671DDEC5960074D73B /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81A52631DDEC5960074D73B /* ViewController.swift in Sources */,
+				B81A52631DDEC5960074D73B /* ShawarmaPopVC.swift in Sources */,
+				B81A52871DE035510074D73B /* DropShadow.swift in Sources */,
 				B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
