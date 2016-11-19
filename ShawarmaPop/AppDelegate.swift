@@ -44,3 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+//adding a default functionality to UICollectionViewCell to ReusableView
+
+extension UICollectionViewCell: ReusableView {}

@@ -36,7 +36,7 @@ class DataService {
      loading the data
      This could as easily be done through accesses to an API
     */
-    private func  loadShawarmas() {
+    func  loadShawarmas() {
         //Chicken Shawarmas
         shawarmas.append(Shawarma(id: 1, productName: "Loaded Flour Chicken Shawarma", wrapperID: 1, proteinID: 2, condimentID: 1))
         shawarmas.append(Shawarma(id: 1, productName: "Loaded GlutenFree Chicken Shawarma", wrapperID: 2, proteinID: 2, condimentID: 1))

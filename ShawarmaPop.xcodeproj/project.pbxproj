@@ -19,6 +19,10 @@
 		B81A52901DE05D9D0074D73B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A528F1DE05D9D0074D73B /* DataService.swift */; };
 		B81A52931DE074660074D73B /* ShawarmaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52911DE074660074D73B /* ShawarmaCell.swift */; };
 		B81A52941DE074660074D73B /* ShawarmaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81A52921DE074660074D73B /* ShawarmaCell.xib */; };
+		B81A52961DE092D10074D73B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52951DE092D10074D73B /* ReusableView.swift */; };
+		B81A52981DE0943E0074D73B /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52971DE0943E0074D73B /* NibLoadableView.swift */; };
+		B81A529A1DE094B20074D73B /* UiCollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */; };
+		B81A529D1DE09BBE0074D73B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A529C1DE09BBE0074D73B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		B81A528F1DE05D9D0074D73B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B81A52911DE074660074D73B /* ShawarmaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShawarmaCell.swift; sourceTree = "<group>"; };
 		B81A52921DE074660074D73B /* ShawarmaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShawarmaCell.xib; sourceTree = "<group>"; };
+		B81A52951DE092D10074D73B /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		B81A52971DE0943E0074D73B /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiCollectionView+Ext.swift"; sourceTree = "<group>"; };
+		B81A529C1DE09BBE0074D73B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 				B81A52801DE031FF0074D73B /* Controller */,
 				B81A528E1DE05D7C0074D73B /* Service */,
 				B81A52851DE032A20074D73B /* Resources */,
+				B81A529B1DE09BA60074D73B /* Utils */,
 			);
 			path = ShawarmaPop;
 			sourceTree = "<group>";
@@ -142,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				B81A52861DE035510074D73B /* DropShadow.swift */,
+				B81A52951DE092D10074D73B /* ReusableView.swift */,
+				B81A52971DE0943E0074D73B /* NibLoadableView.swift */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 		B81A52841DE032840074D73B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -168,6 +180,14 @@
 				B81A528F1DE05D9D0074D73B /* DataService.swift */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		B81A529B1DE09BA60074D73B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B81A529C1DE09BBE0074D73B /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B81A52631DDEC5960074D73B /* ShawarmaPopVC.swift in Sources */,
+				B81A529D1DE09BBE0074D73B /* Constants.swift in Sources */,
 				B81A52871DE035510074D73B /* DropShadow.swift in Sources */,
+				B81A529A1DE094B20074D73B /* UiCollectionView+Ext.swift in Sources */,
 				B81A52931DE074660074D73B /* ShawarmaCell.swift in Sources */,
+				B81A52981DE0943E0074D73B /* NibLoadableView.swift in Sources */,
+				B81A52961DE092D10074D73B /* ReusableView.swift in Sources */,
 				B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */,
 				B81A52901DE05D9D0074D73B /* DataService.swift in Sources */,
 				B81A528B1DE048640074D73B /* Shawarma.swift in Sources */,

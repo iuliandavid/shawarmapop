@@ -16,9 +16,10 @@ class ShawarmaCell: UICollectionViewCell {
     
     var shawarma: Shawarma!
     
+    
     func configureCell(shawarma: Shawarma){
         self.shawarma = shawarma
-        mainImg.image = UIImage(named: shawarma.proteinID.rawValue)
+        mainImg.image = UIImage(named: "\(shawarma.proteinID.rawValue)")
         mainLbl.text = shawarma.productName
     }
 }
