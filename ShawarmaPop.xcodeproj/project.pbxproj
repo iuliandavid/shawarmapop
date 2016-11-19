@@ -23,6 +23,7 @@
 		B81A52981DE0943E0074D73B /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52971DE0943E0074D73B /* NibLoadableView.swift */; };
 		B81A529A1DE094B20074D73B /* UiCollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */; };
 		B81A529D1DE09BBE0074D73B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A529C1DE09BBE0074D73B /* Constants.swift */; };
+		B81A529F1DE0A1D60074D73B /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A529E1DE0A1D60074D73B /* MutableCollection+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		B81A52971DE0943E0074D73B /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiCollectionView+Ext.swift"; sourceTree = "<group>"; };
 		B81A529C1DE09BBE0074D73B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B81A529E1DE0A1D60074D73B /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */,
+				B81A529E1DE0A1D60074D73B /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81A529F1DE0A1D60074D73B /* MutableCollection+Ext.swift in Sources */,
 				B81A52631DDEC5960074D73B /* ShawarmaPopVC.swift in Sources */,
 				B81A529D1DE09BBE0074D73B /* Constants.swift in Sources */,
 				B81A52871DE035510074D73B /* DropShadow.swift in Sources */,

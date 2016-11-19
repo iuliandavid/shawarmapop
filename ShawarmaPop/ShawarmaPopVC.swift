@@ -23,6 +23,9 @@ class ShawarmaPopVC: UIViewController, DataServiceDelegate {
         //load the data
         ds.delegate = self
         ds.loadShawarmas()
+        //applying randomize
+        ds.shawarmas.shuffle()
+        
         
         collectionView.delegate = self
         collectionView.dataSource = self
