@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSE-22-rKY">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSE-22-rKY" customClass="HeaderView" customModule="ShawarmaPop" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shawarma-Pop" translatesAutoresizingMaskIntoConstraints="NO" id="hW8-Uv-ILk">
@@ -47,6 +47,9 @@
                             <constraint firstItem="TSE-22-rKY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vBY-Os-DPR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headerView" destination="TSE-22-rKY" id="QNj-X4-NST"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
