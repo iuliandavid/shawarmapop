@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShawarmaCell: UICollectionViewCell, NibLoadableView {
+class ShawarmaCell: UICollectionViewCell, NibLoadableView, Shakeable {
 
     @IBOutlet weak var mainImg: UIImageView!
     @IBOutlet weak var mainLbl: UILabel!

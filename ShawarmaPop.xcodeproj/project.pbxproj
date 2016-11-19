@@ -24,6 +24,7 @@
 		B81A529A1DE094B20074D73B /* UiCollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */; };
 		B81A529D1DE09BBE0074D73B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A529C1DE09BBE0074D73B /* Constants.swift */; };
 		B81A529F1DE0A1D60074D73B /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A529E1DE0A1D60074D73B /* MutableCollection+Ext.swift */; };
+		B81A52A11DE0A3EB0074D73B /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A52A01DE0A3EB0074D73B /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B81A52991DE094B20074D73B /* UiCollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiCollectionView+Ext.swift"; sourceTree = "<group>"; };
 		B81A529C1DE09BBE0074D73B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B81A529E1DE0A1D60074D73B /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		B81A52A01DE0A3EB0074D73B /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				B81A52861DE035510074D73B /* DropShadow.swift */,
 				B81A52951DE092D10074D73B /* ReusableView.swift */,
 				B81A52971DE0943E0074D73B /* NibLoadableView.swift */,
+				B81A52A01DE0A3EB0074D73B /* Shakeable.swift */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				B81A52931DE074660074D73B /* ShawarmaCell.swift in Sources */,
 				B81A52981DE0943E0074D73B /* NibLoadableView.swift in Sources */,
 				B81A52961DE092D10074D73B /* ReusableView.swift in Sources */,
+				B81A52A11DE0A3EB0074D73B /* Shakeable.swift in Sources */,
 				B81A52611DDEC5960074D73B /* AppDelegate.swift in Sources */,
 				B81A52901DE05D9D0074D73B /* DataService.swift in Sources */,
 				B81A528B1DE048640074D73B /* Shawarma.swift in Sources */,
