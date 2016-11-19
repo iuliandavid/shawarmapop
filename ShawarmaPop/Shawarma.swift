@@ -22,6 +22,7 @@ import Foundation
  # Protein
  */
 enum Protein: String {
+    
     case Beef = "Beef"
     case Chicken = "Chicken"
     case Lamb = "Lamb"
